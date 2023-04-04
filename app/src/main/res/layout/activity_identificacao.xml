@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IdentificacaoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identificação"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:gravity="left"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <ImageView
+        android:id="@+id/phtoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder" />
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/phtoImageView"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="8dp">
+
+            <ImageButton
+                android:id="@+id/btn_importar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:elevation="4dp"
+                android:src="@drawable/baseline_file_open"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Importar"
+                android:textSize="14sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginStart="8dp">
+
+                <ImageButton
+                    android:id="@+id/btn_camera"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:elevation="4dp"
+                    android:src="@drawable/baseline_camera_alt_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Câmera"
+                    android:textSize="14sp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+    </LinearLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnProcessar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:elevation="4dp"
+        android:text="Processar"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_layout"
+        android:background="@drawable/round_back_primary_15"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/ResultadoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:elevation="4dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/btnProcessar"
+        android:background="@drawable/round_back_secondary_15"
+        android:visibility="invisible"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDetalhes"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Detalhes"
+        android:elevation="4dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ResultadoTextView"
+        android:background="@drawable/round_back_primary_15"
+        android:visibility="gone"/>
+
+
+</LinearLayout>
