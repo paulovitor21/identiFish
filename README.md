@@ -35,7 +35,8 @@ As imagens acima mostram a interface do aplicativo e como ele identifica automat
 2. Abra o projeto no Android Studio
 3. Execute o projeto em um dispositivo Android ou em um emulador
 4. Tire uma foto de um peixe e aguarde a identificação automática da espécie
-##Como contribuir
+
+## Como contribuir
 Este projeto é de código aberto e qualquer contribuição é bem-vinda. Se você deseja contribuir, por favor, faça um fork deste repositório e envie um pull request com suas alterações.
 
 ## Contato
