@@ -10,12 +10,16 @@ Para treinar o modelo, utilizei o Teachable Machine, uma plataforma que torna o 
 ##Capturas de tela
 Aqui estão algumas capturas de tela do aplicativo em ação:
 
-![Tela de inicio](tela_inicio.jpg)
-![Tela como utilizar] (tela_como_usar.jpg)
-![Tela de identificação] (tela_idenficacao.jpg)
-![Tela de captura] (tela_identificacao2.jpg)
-![Tela do como o resultado da identificação] (tela_identificacao3.jpg
-![Tela de informações sobre a espécie] (tela_informacoes.jpg)
+<div style="display: flex;">
+  <img src="tela_inicio.jpg" width="300">
+  <img src="tela_como_usar.jpg" width="300">
+  <img src="tela_idenficacao.jpg" width="300">
+  <img src="tela_identificacao2.jpg" width="300">
+  <img src="tela_identificacao3.jpg" width="300">
+  <img src="tela_informacoes.jpg" width="300">
+  
+</div>
+
 As imagens acima mostram a interface do aplicativo e como ele identifica automaticamente a espécie de peixe na imagem capturada pela câmera do dispositivo.
 
 ##Como usar
