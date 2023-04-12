@@ -40,3 +40,6 @@ Este projeto é de código aberto e qualquer contribuição é bem-vinda. Se voc
 
 ## Contato
 Se tiver dúvidas ou sugestões sobre o projeto, sinta-se à vontade para entrar em contato comigo
+
+<a href="mailto: vitorliborio3@gmail.com"><img src="https://img.shields.io/badge/Gmail-red?style=flat&logo=Gmail&logoColor=white" alt="Gmail" /></a>
+<a href="https://www.linkedin.com/in/paulovitor21/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="Linkedin" /></a>
